@@ -3,18 +3,18 @@ import styles from './header.module.scss';
 
 export const Header = () => {
   return (
-    <Group w="100%" p="lg" justify="center" className={styles.header}>
+    <Group bg="blue" w="100%" p="lg" justify="center" className={styles.header}>
       <Group justify="space-between" w="60%">
-        <Title>sNicOut</Title>
+        <Title c="white">sNicOut</Title>
 
         <Group>
-          <Anchor underline="hover" c="black" href="#">
+          <Anchor underline="hover" c="white" href="#">
             About Us
           </Anchor>
-          <Anchor underline="hover" c="black" href="#">
+          <Anchor underline="hover" c="white" href="#">
             Features
           </Anchor>
-          <Anchor underline="hover" c="black" href="#">
+          <Anchor underline="hover" c="white" href="#">
             Support
           </Anchor>
         </Group>
