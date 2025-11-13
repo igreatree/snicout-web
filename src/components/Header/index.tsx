@@ -8,7 +8,7 @@ export const Header = () => {
         <Title c="white">sNicOut</Title>
 
         <Group>
-          <Anchor underline="hover" c="white" href="#">
+          <Anchor underline="hover" c="white" href="#about-us">
             About Us
           </Anchor>
           <Anchor underline="hover" c="white" href="#">
